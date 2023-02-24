@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className="w-full h-[90vh]">
       <img
-        src="images/wil.jpg"
+        src="images/bg.jpg"
         alt="mic"
         className="w-full h-full object-cover"
       />
