@@ -9,11 +9,11 @@ const Contact = () => {
             <img src="images/paolo.jpg" alt="" className='w-full md:h-full object-cover p-2 max-h-[500px] h-[200px]' />
             <form>
                 <div className='grid grid-cols-2'>
-                    <input className='border m-2 p-2' type="text" placeholder='First' />
-                    <input className='border m-2 p-2' type="text" placeholder='Second' />
-                    <input className='border m-2 p-2' type="text" placeholder='Email' />
+                    <input className='border m-2 p-2' type="text" placeholder='First Name' />
+                    <input className='border m-2 p-2' type="text" placeholder='Second Name' />
+                    <input className='border m-2 p-2' type="text" placeholder='Email Address' />
                     <input className='border m-2 p-2' type="text" placeholder='Phone' />
-                    <input className='border m-2 p-2 col-span-2' type="text" placeholder='Address' />
+                    <input className='border m-2 p-2 col-span-2' type="text" placeholder='Home Address' />
                     <textarea className='border m-2 p-2 col-span-2' cols="30" rows="10"></textarea>
                     <button className='col-span-2 m-2'>Submit</button>
                 </div>
